@@ -34,7 +34,6 @@ do_action('kadence_after_footer');
 <?php do_action('kadence_after_wrapper'); ?>
 
 <?php wp_footer(); ?>
-<script async src="https://culturaltracking.ru/static/js/spxl.js?pixelId=1428" data-pixel-id="1428"></script>
 </body>
 
 </html>
