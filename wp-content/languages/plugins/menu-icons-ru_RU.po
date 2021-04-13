@@ -1,0 +1,200 @@
+# Translation of Plugins - Menu Icons by ThemeIsle - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Menu Icons by ThemeIsle - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-10 02:31:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Menu Icons by ThemeIsle - Development (trunk)\n"
+
+#: menu-icons.php:152
+msgid "Looks like Menu Icons was installed via Composer. Please activate Icon Picker first."
+msgstr "Похоже, что плагин был установлен через Composer. Пожалуйста, сначала активируйте плагин."
+
+#: includes/settings.php:742
+msgid "Change"
+msgstr "Изменить"
+
+#: includes/settings.php:585
+msgid "SVG Width"
+msgstr "Ширина SVG"
+
+#: includes/picker.php:63
+msgid "Type"
+msgstr "Тип"
+
+#: menu-icons.php:123
+msgid "Menu Icons: No registered icon types found."
+msgstr "Menu Icons: не найдены зарегистрированные типы иконок."
+
+#: includes/settings.php:596
+msgid "Image Size"
+msgstr "Размер изображения"
+
+#: includes/library/functions.php:82
+msgid "Full Size"
+msgstr "Полный"
+
+#: includes/library/functions.php:81
+msgid "Large"
+msgstr "Большой"
+
+#: includes/library/functions.php:80
+msgid "Medium"
+msgstr "Средний"
+
+#: includes/library/functions.php:79
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: includes/settings.php:567
+msgid "Sub"
+msgstr "Под"
+
+#: includes/settings.php:563
+msgid "Bottom"
+msgstr "Снизу"
+
+#: includes/settings.php:559
+msgid "Text Bottom"
+msgstr "Снизу текста"
+
+#: includes/settings.php:555
+msgid "Baseline"
+msgstr "Базовая линия"
+
+#: includes/settings.php:551
+msgid "Middle"
+msgstr "Посередине"
+
+#: includes/settings.php:547
+msgid "Text Top"
+msgstr "Сверху текста"
+
+#: includes/settings.php:543
+msgid "Top"
+msgstr "Сверху"
+
+#: includes/settings.php:539
+msgid "Super"
+msgstr "Супер"
+
+#: includes/settings.php:534
+msgid "Vertical Align"
+msgstr "Выравнивание"
+
+#: includes/settings.php:574
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: includes/settings.php:425
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: includes/settings.php:416
+msgid "Reset"
+msgstr "Сброс"
+
+#: includes/settings.php:415
+msgid "Discard all changes and reset to default state"
+msgstr "Отменить все изменения и сбросить к значениям по умолчанию"
+
+#: includes/settings.php:373 includes/settings.php:396
+msgid "Extensions"
+msgstr "Дополнения"
+
+#: includes/settings.php:476
+msgid "\"%s\" menu settings"
+msgstr "Настройки меню \"%s\""
+
+#: includes/settings.php:474
+msgid "Current Menu"
+msgstr "Текущее"
+
+#: includes/settings.php:458
+msgid "Icon Types"
+msgstr "Наборы иконок"
+
+#: includes/settings.php:453
+msgid "Global settings"
+msgstr "Общие настройки"
+
+#: includes/settings.php:452
+msgid "Global"
+msgstr "Общее"
+
+#: includes/settings.php:527
+msgid "After"
+msgstr "После ссылки"
+
+#: includes/settings.php:523
+msgid "Before"
+msgstr "До ссылки"
+
+#: includes/settings.php:518
+msgid "Position"
+msgstr "Позиция"
+
+#: includes/settings.php:511
+msgid "Yes"
+msgstr "Да"
+
+#: includes/settings.php:507
+msgid "No"
+msgstr "Нет"
+
+#: includes/settings.php:502
+msgid "Hide Label"
+msgstr "Скрыть текст меню"
+
+#: includes/settings.php:301
+msgid "Menu Icons Settings"
+msgstr "Настройки Menu Icons"
+
+#: includes/settings.php:336
+msgid "<strong>Menu Icons Settings</strong> have been successfully reset."
+msgstr "Настройки <strong>Menu Icons</strong> были успешно сброшены."
+
+#: includes/settings.php:335
+msgid "<strong>Menu Icons Settings</strong> have been successfully updated."
+msgstr "Настройки <strong>Menu Icons</strong> были успешно сохранены."
+
+#: includes/library/form-fields.php:152
+msgid "%1$s: Type %2$s is not supported, reverting to text."
+msgstr "%1$s: Тип %2$s не поддерживается, переведено в текст."
+
+#: includes/picker.php:68 includes/picker.php:166
+msgid "Icon"
+msgstr "Иконка"
+
+#: includes/picker.php:118 includes/settings.php:741
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/picker.php:116
+msgid "Icon:"
+msgstr "Иконка: "
+
+#: includes/settings.php:744
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: includes/settings.php:743
+msgid "All"
+msgstr "Все"
+
+#: includes/picker.php:117 includes/settings.php:740
+msgid "Select"
+msgstr "Выбрать"
+
+#: includes/settings.php:739
+msgid "Select Icon"
+msgstr "Выбрать иконку"
+
+#: includes/library/form-fields.php:528
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Выбрать &mdash;"

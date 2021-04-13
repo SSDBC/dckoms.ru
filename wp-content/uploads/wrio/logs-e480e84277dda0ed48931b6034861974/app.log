@@ -1,0 +1,137 @@
+
+18-03-2021 05:08:18.1616044098.2007 [127.0.0.1][6052e0][info] Parent plugin start installation!
+18-03-2021 05:08:18.1616044098.3402 [127.0.0.1][6052e0][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.5.0
+18-03-2021 05:08:21.1616044101.8365 [127.0.0.1][6052e0][info] Parent plugin installation complete!
+18-03-2021 05:10:48.1616044248.7468 [127.0.0.1][6052e0][info] Try to create backup directory. Backup dir: (C:/OpenServer1/domains/dckomswp/wp-content/uploads/wio_backup)
+18-03-2021 05:11:06.1616044266.8681 [127.0.0.1][6052e0][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:06.1616044266.8849 [127.0.0.1][6052e0][info] Try to create backup directory. Backup dir: (C:/OpenServer1/domains/dckomswp/wp-content/uploads/wio_backup/2021/03)
+18-03-2021 05:11:06.1616044266.9183 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/2020-landscape-1.png) to a remote server (server_1).
+18-03-2021 05:11:07.1616044267.3217 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:07.1616044267.6503 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/2020-landscape-1-150x150.png) to a remote server (server_1).
+18-03-2021 05:11:07.1616044267.9176 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:08.1616044268.1597 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/2020-landscape-1-300x192.png) to a remote server (server_1).
+18-03-2021 05:11:08.1616044268.4293 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:08.1616044268.7208 [127.0.0.1][6052e0][debug] New queue created #1, attributes values: {"server_id":null,"object_id":"10","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1841,"final_size":1710,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1211,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044268}
+18-03-2021 05:11:08.1616044268.8278 [127.0.0.1][6052e0][info] End bulk optimization process! Scope: media-library. Remain: 12
+18-03-2021 05:11:10.1616044270.6388 [127.0.0.1][6052e0][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:10.1616044270.7821 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/logo2.png) to a remote server (server_1).
+18-03-2021 05:11:11.1616044271.3968 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:11.1616044271.8436 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/logo2-150x150.png) to a remote server (server_1).
+18-03-2021 05:11:12.1616044272.2874 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:12.1616044272.6151 [127.0.0.1][6052e0][debug] New queue created #2, attributes values: {"server_id":null,"object_id":"12","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":122229,"final_size":42706,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":83643,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044272}
+18-03-2021 05:11:12.1616044272.7761 [127.0.0.1][6052e0][info] End bulk optimization process! Scope: media-library. Remain: 11
+18-03-2021 05:11:14.1616044274.5694 [127.0.0.1][6052e0][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:14.1616044274.7044 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-logo2.png) to a remote server (server_1).
+18-03-2021 05:11:15.1616044275.3267 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:15.1616044275.6866 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-logo2-150x150.png) to a remote server (server_1).
+18-03-2021 05:11:16.1616044276.1011 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:16.1616044276.7315 [127.0.0.1][6052e0][debug] New queue created #3, attributes values: {"server_id":null,"object_id":"13","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":117588,"final_size":41711,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":79002,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044276}
+18-03-2021 05:11:17.1616044277.0618 [127.0.0.1][6052e0][info] End bulk optimization process! Scope: media-library. Remain: 10
+18-03-2021 05:11:18.1616044278.7729 [127.0.0.1][6052e0][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:18.1616044278.8033 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-cropped-logo2.png) to a remote server (server_1).
+18-03-2021 05:11:19.1616044279.3626 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:19.1616044279.7201 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-cropped-logo2-150x150.png) to a remote server (server_1).
+18-03-2021 05:11:20.1616044280.1235 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:20.1616044280.4695 [127.0.0.1][6052e0][debug] New queue created #4, attributes values: {"server_id":null,"object_id":"43","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":95375,"final_size":34840,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":57089,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044280}
+18-03-2021 05:11:20.1616044280.5876 [127.0.0.1][6052e0][info] End bulk optimization process! Scope: media-library. Remain: 9
+18-03-2021 05:11:22.1616044282.3676 [127.0.0.1][6052e0][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:22.1616044282.3812 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-cropped-logo2-1.png) to a remote server (server_1).
+18-03-2021 05:11:22.1616044282.9781 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:23.1616044283.3399 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-cropped-logo2-1-150x150.png) to a remote server (server_1).
+18-03-2021 05:11:23.1616044283.8698 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:24.1616044284.2311 [127.0.0.1][6052e0][debug] New queue created #5, attributes values: {"server_id":null,"object_id":"46","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":118519,"final_size":41779,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":78485,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044284}
+18-03-2021 05:11:24.1616044284.3985 [127.0.0.1][6052e0][info] End bulk optimization process! Scope: media-library. Remain: 8
+18-03-2021 05:11:26.1616044286.151 [127.0.0.1][6052e0][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:26.1616044286.2415 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-logo2-1.png) to a remote server (server_1).
+18-03-2021 05:11:27.1616044287.2205 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:27.1616044287.8037 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-logo2-1-150x150.png) to a remote server (server_1).
+18-03-2021 05:11:28.1616044288.3223 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:28.1616044288.5707 [127.0.0.1][6052e0][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/cropped-logo2-1-300x300.png) to a remote server (server_1).
+18-03-2021 05:11:29.1616044289.3064 [127.0.0.1][6052e0][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:29.1616044289.8809 [127.0.0.1][6052e0][debug] New queue created #6, attributes values: {"server_id":null,"object_id":"51","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":428007,"final_size":156508,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":271255,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044289}
+18-03-2021 05:11:30.1616044290.0314 [127.0.0.1][6052e0][info] End bulk optimization process! Scope: media-library. Remain: 7
+18-03-2021 05:11:31.1616044291.9298 [127.0.0.1][6052e1][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:32.1616044292.063 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image.jpeg) to a remote server (server_1).
+18-03-2021 05:11:33.1616044293.0032 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:33.1616044293.7014 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-150x150.jpeg) to a remote server (server_1).
+18-03-2021 05:11:33.1616044293.9621 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:34.1616044294.2001 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-300x300.jpeg) to a remote server (server_1).
+18-03-2021 05:11:34.1616044294.6131 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:35.1616044295.1283 [127.0.0.1][6052e1][debug] New queue created #7, attributes values: {"server_id":null,"object_id":"99","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":458543,"final_size":292242,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":426381,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044294}
+18-03-2021 05:11:35.1616044295.2763 [127.0.0.1][6052e1][info] End bulk optimization process! Scope: media-library. Remain: 6
+18-03-2021 05:11:37.1616044297.1086 [127.0.0.1][6052e1][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:37.1616044297.5969 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-1.jpeg) to a remote server (server_1).
+18-03-2021 05:11:38.1616044298.4006 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:38.1616044298.9893 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-1-150x150.jpeg) to a remote server (server_1).
+18-03-2021 05:11:39.1616044299.2438 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:39.1616044299.5123 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-1-300x300.jpeg) to a remote server (server_1).
+18-03-2021 05:11:39.1616044299.8901 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:40.1616044300.4449 [127.0.0.1][6052e1][debug] New queue created #8, attributes values: {"server_id":null,"object_id":"102","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":302302,"final_size":199758,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":275722,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044300}
+18-03-2021 05:11:41.1616044301.4123 [127.0.0.1][6052e1][info] End bulk optimization process! Scope: media-library. Remain: 5
+18-03-2021 05:11:43.1616044303.2918 [127.0.0.1][6052e1][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:43.1616044303.4226 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-2.jpeg) to a remote server (server_1).
+18-03-2021 05:11:44.1616044304.3474 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:45.1616044305.0443 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-2-150x150.jpeg) to a remote server (server_1).
+18-03-2021 05:11:45.1616044305.2955 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:45.1616044305.534 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-2-300x300.jpeg) to a remote server (server_1).
+18-03-2021 05:11:45.1616044305.9503 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:46.1616044306.8473 [127.0.0.1][6052e1][debug] New queue created #9, attributes values: {"server_id":null,"object_id":"104","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":458316,"final_size":295659,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":420564,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044306}
+18-03-2021 05:11:47.1616044307.2294 [127.0.0.1][6052e1][info] End bulk optimization process! Scope: media-library. Remain: 4
+18-03-2021 05:11:49.1616044309.079 [127.0.0.1][6052e1][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:49.1616044309.1569 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-3.jpeg) to a remote server (server_1).
+18-03-2021 05:11:49.1616044309.9429 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:50.1616044310.5268 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-3-150x150.jpeg) to a remote server (server_1).
+18-03-2021 05:11:50.1616044310.8051 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:51.1616044311.0469 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-3-300x300.jpeg) to a remote server (server_1).
+18-03-2021 05:11:51.1616044311.4232 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:52.1616044312.0602 [127.0.0.1][6052e1][debug] New queue created #10, attributes values: {"server_id":null,"object_id":"106","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":281580,"final_size":187579,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":254450,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044311}
+18-03-2021 05:11:52.1616044312.229 [127.0.0.1][6052e1][info] End bulk optimization process! Scope: media-library. Remain: 3
+18-03-2021 05:11:54.1616044314.2469 [127.0.0.1][6052e1][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:54.1616044314.3215 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-4.jpeg) to a remote server (server_1).
+18-03-2021 05:11:55.1616044315.2348 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:55.1616044315.8215 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-4-150x150.jpeg) to a remote server (server_1).
+18-03-2021 05:11:56.1616044316.0912 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:56.1616044316.3286 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/image-4-300x300.jpeg) to a remote server (server_1).
+18-03-2021 05:11:56.1616044316.7542 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:11:57.1616044317.3898 [127.0.0.1][6052e1][debug] New queue created #11, attributes values: {"server_id":null,"object_id":"108","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":329921,"final_size":214653,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":301718,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044317}
+18-03-2021 05:11:57.1616044317.6052 [127.0.0.1][6052e1][info] End bulk optimization process! Scope: media-library. Remain: 2
+18-03-2021 05:11:59.1616044319.5151 [127.0.0.1][6052e1][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:11:59.1616044319.6244 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/Рисуем-вместе.jpg) to a remote server (server_1).
+18-03-2021 05:12:00.1616044320.263 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:12:00.1616044320.8411 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/Рисуем-вместе-150x150.jpg) to a remote server (server_1).
+18-03-2021 05:12:01.1616044321.2214 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:12:01.1616044321.4642 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/Рисуем-вместе-300x203.jpg) to a remote server (server_1).
+18-03-2021 05:12:01.1616044321.8543 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:12:02.1616044322.5456 [127.0.0.1][6052e1][debug] New queue created #12, attributes values: {"server_id":null,"object_id":"111","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":163095,"final_size":136014,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":126072,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044322}
+18-03-2021 05:12:02.1616044322.9425 [127.0.0.1][6052e1][info] End bulk optimization process! Scope: media-library. Remain: 1
+18-03-2021 05:12:04.1616044324.9356 [127.0.0.1][6052e1][info] Start bulk optimization process! Scope: media-library
+18-03-2021 05:12:05.1616044325.0371 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/Рисуем-вместе-1.jpg) to a remote server (server_1).
+18-03-2021 05:12:05.1616044325.6966 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:12:06.1616044326.2719 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/Рисуем-вместе-1-150x150.jpg) to a remote server (server_1).
+18-03-2021 05:12:06.1616044326.6422 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:12:07.1616044327.0063 [127.0.0.1][6052e1][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/Рисуем-вместе-1-300x300.jpg) to a remote server (server_1).
+18-03-2021 05:12:07.1616044327.4873 [127.0.0.1][6052e1][info] File successfully uploaded to remote server (server_1).
+18-03-2021 05:12:08.1616044328.0933 [127.0.0.1][6052e1][debug] New queue created #13, attributes values: {"server_id":null,"object_id":"112","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":215048,"final_size":183978,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":126072,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616044327}
+18-03-2021 05:12:08.1616044328.5016 [127.0.0.1][6052e1][info] End bulk optimization process! Scope: media-library. Remain: 0
+25-03-2021 03:46:28.1616643988.6498 [127.0.0.1][605c07][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/3002021.jpg) to a remote server (server_1).
+25-03-2021 03:46:29.1616643989.2719 [127.0.0.1][605c07][info] File successfully uploaded to remote server (server_1).
+25-03-2021 03:46:29.1616643989.6159 [127.0.0.1][605c07][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/3002021-150x150.jpg) to a remote server (server_1).
+25-03-2021 03:46:29.1616643989.9225 [127.0.0.1][605c07][info] File successfully uploaded to remote server (server_1).
+25-03-2021 03:46:30.1616643990.1941 [127.0.0.1][605c07][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/3002021-300x240.jpg) to a remote server (server_1).
+25-03-2021 03:46:30.1616643990.5616 [127.0.0.1][605c07][info] File successfully uploaded to remote server (server_1).
+25-03-2021 03:46:30.1616643990.9699 [127.0.0.1][605c07][debug] New queue created #14, attributes values: {"server_id":null,"object_id":291,"object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":59278,"final_size":57125,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":26904,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616643990}
+25-03-2021 04:40:27.1616647227.0267 [127.0.0.1][605c14][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/logo.png) to a remote server (server_1).
+25-03-2021 04:40:27.1616647227.6876 [127.0.0.1][605c14][info] File successfully uploaded to remote server (server_1).
+25-03-2021 04:40:27.1616647227.9942 [127.0.0.1][605c14][info] Preparing to upload a file (C:/OpenServer1/domains/dckomswp/wp-content/uploads/2021/03/logo-150x150.png) to a remote server (server_1).
+25-03-2021 04:40:28.1616647228.3953 [127.0.0.1][605c14][info] File successfully uploaded to remote server (server_1).
+25-03-2021 04:40:28.1616647228.7508 [127.0.0.1][605c14][debug] New queue created #15, attributes values: {"server_id":null,"object_id":278,"object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":59638,"final_size":20055,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":35662,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1616647228}
+25-03-2021 04:50:42.1616647842.7235 [127.0.0.1][605c16][info] Restored file: C:/OpenServer1/domains/dckomswp/wp-content/uploads/wio_backup/2021/03/logo.png.
+25-03-2021 04:50:42.1616647842.7292 [127.0.0.1][605c16][info] Restored file: C:/OpenServer1/domains/dckomswp/wp-content/uploads/wio_backup/2021/03/logo-150x150.png.
+25-03-2021 04:50:43.1616647843.4026 [127.0.0.1][605c16][debug] Deleted queue item #15
+25-03-2021 04:50:43.1616647843.104 [127.0.0.1][605c16][info] Restored file: C:/OpenServer1/domains/dckomswp/wp-content/uploads/wio_backup/2021/03/3002021.jpg.
+25-03-2021 04:50:43.1616647843.111 [127.0.0.1][605c16][info] Restored file: C:/OpenServer1/domains/dckomswp/wp-content/uploads/wio_backup/2021/03/3002021-150x150.jpg.
+25-03-2021 04:50:43.1616647843.122 [127.0.0.1][605c16][info] Restored file: C:/OpenServer1/domains/dckomswp/wp-content/uploads/wio_backup/2021/03/3002021-300x240.jpg.
+25-03-2021 04:50:44.1616647844.2011 [127.0.0.1][605c16][debug] Deleted queue item #14

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "imangazaliev/didom": "^1.14",
+        "kub-at/php-simple-html-dom-parser": "^1.7"
+    }
+}
