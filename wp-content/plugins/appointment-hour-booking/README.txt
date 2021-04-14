@@ -1081,7 +1081,10 @@ Please note that the pro features aren't advised as part of the free plugin in t
 = 1.2.95 =
 * PHP 8.0 updates
 
+= 1.2.96 =
+* Script improvements and language updates
+
 == Upgrade Notice ==
 
-= 1.2.95 =
-* PHP 8.0 updates
+= 1.2.96 =
+* Script improvements and language updates

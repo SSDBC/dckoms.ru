@@ -77,6 +77,7 @@ $.extend(
 			        if (d[i].t1==data[j].t1 && d[i].t2==data[j].t2 && (d[i].serviceindex == data[j].serviceindex))
 			        {
 			            data[j].quantity += d[i].quantity;
+			            data[j].currentSelection = data[j].currentSelection || d[j].currentSelection || false;
 			            if (!$.inArray(d[i].service[0],data[j].service))
 			                data[j].service[data[j].service.length] = d[i].service[0]; 
 			            find = true;
@@ -291,7 +292,7 @@ $.extend(
             if (me.maxDate!=="" && me.getMaxDate!="")
             {
 		        var current = me.getMaxDate;
-		    	var currenttime = current.getTime()-me.tz*60*60*1000;
+		    	var currenttime = current.getTime()+me.tz*60*60*1000;
 			    for (var i=arr.length-1;i>=0;i--)
 			    {
 			        if ($.datepicker.parseDate("yy-mm-dd",arr[i].day).getTime()+arr[i].t1*60*1000 >= currenttime)
@@ -401,8 +402,9 @@ $.extend(
 		    	                    v = true;
 		    	                if (v)
 		    	                {
-		    	                    if (compactUsedSlots[i].quantity>=capacity_service)
+		    	                    if (compactUsedSlots[i].quantity>=capacity_service || compactUsedSlots[i].currentSelection)
 		    	                        compactUsedSlots[i].html = '<div s="'+s+'" h1="'+compactUsedSlots[i].h1+'" m1="'+compactUsedSlots[i].m1+'" h2="'+compactUsedSlots[i].h2+'" m2="'+compactUsedSlots[i].m2+'" style="'+(!me.usedSlotsCheckbox?"display:none":"")+'" class="htmlUsed  '+((typeof compactUsedSlots[i].s !== 'undefined')?compactUsedSlots[i].s.replace(/ /g,"").toLowerCase()+" old":" choosen")+'"><a '+((typeof compactUsedSlots[i].e !== 'undefined')?"title=\""+compactUsedSlots[i].e+"\"":"")+'>'+me.formatString(compactUsedSlots[i],false,me.tz)+'</a>'+((typeof compactUsedSlots[i].e !== 'undefined')?"<div class=\"ahbmoreinfo\">"+compactUsedSlots[i].e+"</div>":"")+'</div>';
+		    	                    compactUsedSlots[i].availableslot = false;
 		    	                    htmlSlots[htmlSlots.length] = compactUsedSlots[i];
 		    	                }       
 		    	            }
@@ -424,7 +426,7 @@ $.extend(
 		  	  	while (st + duration + me.pa <=et  && st < 24 * 60)
 		  	  	{ 
 		  	  	    html = "<div class=\"availableslot\"><a  s=\""+s+"\"  href=\"\" d=\""+arr[i].day+"\" h1=\""+Math.floor((st)/60)+"\" m1=\""+((st)%60)+"\" h2=\""+Math.floor((st+duration)/60)+"\" m2=\""+((st+duration)%60)+"\">"+me.formatString({st:st,et:st+duration},false,me.tz)+"<span class=\"ahb_slot_availability\"><span class=\"p\">ahbslotavailabilityP</span><span class=\"t\">ahbslotavailabilityT</span></span></a></div>";
-		  	  	    htmlSlots[htmlSlots.length] = {st:st,serviceindex:s,h1:Math.floor((st)/60),m1:((st)%60),h2:Math.floor((st+duration)/60),m2:((st+duration)%60),html:html,t:$.datepicker.parseDate("yy-mm-dd",arr[i].day).getTime()+st*60*1000};
+		  	  	    htmlSlots[htmlSlots.length] = {availableslot:true,st:st,serviceindex:s,h1:Math.floor((st)/60),m1:((st)%60),h2:Math.floor((st+duration)/60),m2:((st+duration)%60),html:html,t:$.datepicker.parseDate("yy-mm-dd",arr[i].day).getTime()+st*60*1000};
 		  	  	    if (!me.bSlotsCheckbox)
 		  	  	        st += me.bduration;
 		  	  	    else    
@@ -454,7 +456,23 @@ $.extend(
                 		field.push(e1);  
                 	}return field;
                 }, []);
-		  	me.usedSlots[d] = me.usedSlots[d] || [];	
+		  	htmlSlots = htmlSlots.reduce(function(field, e1){  
+                	var matches = field.filter(function(e2){return e1.t== e2.t}); 
+                	if (matches.length == 0){ 
+                		field.push(e1);  
+                	}
+                	else
+                	{
+                	    for (var i=0;i<field.length;i++)
+                	        if (field[i].t==e1.t && !field[i].availableslot && e1.availableslot)
+                	        {
+                	             field[i]= e1;
+                	             break;        
+                	        }
+                	}
+                	return field;
+                }, []);
+            me.usedSlots[d] = me.usedSlots[d] || [];	
 		  	if (me.usedSlots[d].length>0 && htmlSlots.length>0)
 		  	    for (var i=0;i<me.usedSlots[d].length;i++)
 		  	        for (var j=0;j<htmlSlots.length;j++)
@@ -853,7 +871,7 @@ $.extend(
 		  				    var d = $(this).attr("d");
 		  				    me.usedSlots[d] = me.usedSlots[d] || [];	
 		  				    var ind = $(this).attr("s")*1;  				    
-		  				    obj = {h1:$(this).attr("h1")*1,m1:$(this).attr("m1")*1,h2:$(this).attr("h2")*1,m2:$(this).attr("m2")*1,d:d,serviceindex:ind,price:parseFloat(me.services[ind].price)*q,quantity:q};	            	
+		  				    obj = {currentSelection:true,h1:$(this).attr("h1")*1,m1:$(this).attr("m1")*1,h2:$(this).attr("h2")*1,m2:$(this).attr("m2")*1,d:d,serviceindex:ind,price:parseFloat(me.services[ind].price)*q,quantity:q};	            	
 		  				    me.usedSlots[d][me.usedSlots[d].length] = obj; 
 		  				    me.allUsedSlots[me.allUsedSlots.length] = obj;
 		  				    $(document).trigger("beforeClickSlot",{name:me.name, d:d});
@@ -1167,7 +1185,8 @@ $.extend(
 		    if (me.defaultDate!=="")
 		        e.datepicker("setDate", me.defaultDate);
 		    } catch (e) {}
-		    e.datepicker("option", "maxDate", me.maxDate );   		    
+		    e.datepicker("option", "maxDate", me.maxDate );
+		    if (me.getMaxDate!="" && me.tz!=0) 	e.datepicker("option", "maxDate", new Date(me.getMaxDate.getTime()+me.tz*60*60*1000) );
 		    me.tmpinvalidDatestime = new Array();
             try {
                   for (var i=0;i<me.tmpinvalidDates.length;i++)
