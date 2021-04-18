@@ -31,3 +31,11 @@ require get_template_directory() . '/inc/functions.php';
 
 // Initialize the theme.
 call_user_func('Kadence\kadence');
+
+## Закрывает все маршруты REST API от публичного доступа
+add_filter('rest_authentication_errors', function ($result) {
+	if (empty($result) && !current_user_can('edit_others_posts')) {
+		return new WP_Error('rest_forbidden', 'You are not currently logged in.', array('status' => 401));
+	}
+	return $result;
+});
