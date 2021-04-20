@@ -1,0 +1,9 @@
+DirectoryIndex index.php
+#принудительно вызвать индекс
+#потом пароль на этот файл
+<Files index.php>
+AuthType Basic
+AuthName "That's protected Area!"
+AuthUserFile /home/host1300799/dckoms.ru/htdocs/www//.htpasswd
+require valid-user
+</Files>
