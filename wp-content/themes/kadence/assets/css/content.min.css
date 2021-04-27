@@ -1047,6 +1047,7 @@ article.sticky {
 	height: 100%;
 	object-fit: cover;
 	width: 100%;
+	border-radius: 18px;
 }
 .archive.content-style-unboxed .site .post-thumbnail,
 .blog.content-style-unboxed .site .post-thumbnail {
