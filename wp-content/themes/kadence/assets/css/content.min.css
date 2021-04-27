@@ -758,6 +758,7 @@ article.sticky {
 }
 .content-wrap {
 	position: relative;
+	margin: 20px;
 }
 .kadence-thumbnail-position-behind + .entry {
 	z-index: 1;
