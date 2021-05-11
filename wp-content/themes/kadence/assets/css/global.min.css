@@ -145,7 +145,7 @@ template {
 	--global-sm-spacing: 0rem;
 	--global-md-spacing: 2rem;
 	--global-lg-spacing: 2.5em;
-	--global-xl-spacing: 3.5em;
+	--global-xl-spacing: 0.5em;
 	--global-xxl-spacing: 5rem;
 	--global-edge-spacing: 1.5rem;
 	--global-boxed-spacing: 2rem;
